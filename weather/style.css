@@ -62,3 +62,18 @@ button{
 button:hover{
   background-color: gold;
 }
+
+h2{
+
+  color: darkslateblue;
+  font-size: 3em;
+  font-weight: light;
+  text-align: left;
+
+
+}
+
+.weather-list{
+
+ 
+}
