@@ -15,6 +15,10 @@ h1{
   font-weight: light;
 }
 
+#result>h1{
+  color: #6495ED;
+}
+
 .container{
   display: -webkit-flex;
   display: -ms-flex;
