@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    const $weatherAPIkey = '7ffd49cb02e6f7e14455ae1919e59d33';
+    const $weatherAPIkey = ''; //Enter your weather API key
 
     $('#submit').click(() => {
         const $zipcode = $('#zipcode').val();
@@ -32,5 +32,5 @@ $(document).ready(() => {
         $('<p>').text(`Min temp: ${min_temp}`).appendTo($('#result'));
         $('<p>').text(`Max temp: ${max_temp}`).appendTo($('#result'));
     }
-    
+
 }); 
