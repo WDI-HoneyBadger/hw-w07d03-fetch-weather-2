@@ -19,7 +19,7 @@ $(document).ready(() => {
     const renderData = (city) => {
        const $cityName = $('<h2>').text(city.name).appendTo('#result'); 
        const $currentTemp = $('<h2>').text(city.main.temp).appendTo('#result'); 
-       const $description = $('<h2>').text(city.weather.description).appendTo('#result'); 
+       const $description = $('<h2>').text(city.weather[0].description).appendTo('#result'); 
        const $min = $('<h2>').text(city.main.temp_min).appendTo('#result'); 
        const $max = $('<h2>').text(city.main.temp_max).appendTo('#result'); 
     }
