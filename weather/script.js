@@ -7,7 +7,7 @@ $(document).ready(() => {
         })
 
         const makecall = (zipCode) => {
-        const url = `http://api.openweathermap.org/data/2.5/weather?q=${zipCode}&units=imperial&appid=a9bfdaae31fa1aa7f7e9d30d888b7ca7`;
+        const url = `http://api.openweathermap.org/data/2.5/weather?zip=${zipCode}&units=imperial&appid=a9bfdaae31fa1aa7f7e9d30d888b7ca7`;
         
         fetch(url)
         .then(response => response.json())
