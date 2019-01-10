@@ -5,7 +5,7 @@ $(document).ready(() => {
         $('#result').empty();
        makecall($('#zipcode').val());
     })
-   
+   // this a test 
     const makecall =(zipcode) => {
         const url =`http://api.openweathermap.org/data/2.5/weather?q=${zipcode}&units=imperial&appid=de601f137a5b9e31385c2ee6d540f0f4`;
         
