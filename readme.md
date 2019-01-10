@@ -66,4 +66,4 @@ http://api.openweathermap.org/data/2.5/weather?q=[ZIP CODE GOES HERE],us?units=i
 
 ## Submission
 
-Homework is due by **11:00 Sunday!** Remember to work with each other and go to TAs when you need it, but follow the [guidelines](https://git.generalassemb.ly/wdi-nyc-8-28/Course-Information/blob/master/how-to-queue-with-TAs.md) for queuing. Follow the [rules for homework submission](https://git.generalassemb.ly/wdi-nyc-8-28/Course-Information/blob/master/homework.md) for creating your pull request to submit the homework.
+Homework is due by **tonight at midnight**
